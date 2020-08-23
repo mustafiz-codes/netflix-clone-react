@@ -33,7 +33,7 @@ function Row({ title, fetchUrl, isLargeRow }) {
             className={`row_poster ${isLargeRow && "row_posterLarge"}`}
             src={`${base_url}${
               isLargeRow ? movie.poster_path : movie.backdrop_path
-            }`}
+              }`}
             alt={movie.name}
           />
         ))}
